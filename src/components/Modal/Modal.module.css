@@ -1,0 +1,28 @@
+.bg_blackout {
+    position: fixed;
+    background: rgba(0,0,0,0.5);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    /*translate -50 -50 смещает окно на -50% назад от своего размера */
+    transform: translate(-50%, -50%);
+    max-width: 80%;
+    max-height: 95%;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: #2B2B2B;
+    overflow-y: auto;
+}
+
+@media (max-width: 426px) {
+    .modal {
+        max-width: 90%;
+    }
+}

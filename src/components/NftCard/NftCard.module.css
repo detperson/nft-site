@@ -1,0 +1,74 @@
+.card {
+    width: 330px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    color: #FFFFFF;
+    overflow: hidden;
+}
+
+/* .image-div {
+
+} */
+
+.image-div img {
+    display: block;
+    object-fit: cover;
+    width: 100%;
+    height: 330px;
+}
+
+.body {
+    height: 100%;
+    background-color: #2B2B2B;
+    padding: 20px 30px 25px 30px;
+}
+
+.nft-name {
+    font-size: 22px;
+    line-height: 140%;
+    margin-bottom: 25px;
+}
+
+.nft-collection {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.collection-name {
+    font-family: "Space Mono", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 140%;
+}
+
+.cost-div {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* .price {
+
+} */
+
+.cost__title {
+    font-family: "Space Mono", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 110%;
+    color: #858584;
+    margin-bottom: 8px;
+}
+
+.cost__value {
+    font-family: "Space Mono", sans-serif;
+    font-weight: 400;
+    line-height: 140%;
+}
+
+.rarity {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}

@@ -1,0 +1,126 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    color: #FFFFFF;
+    overflow: hidden;
+    padding-top: 15px;
+    width: 500px;
+}
+
+.card_header {
+    display: flex;
+    justify-content: space-between;
+}
+/* .names_block {} */
+.close_card_btn {
+    font-size: 20px;
+    cursor: pointer;
+    margin: -8px 12px 0 0;
+    color: #858584;
+    transition: color 0.1s ease-in-out;
+}
+.close_card_btn:hover {
+    color: #FFFFFF;
+}
+
+.nft-name {
+    font-size: 22px;
+    line-height: 140%;
+    margin: 0 0 10px 20px;
+}
+
+.nft-collection {
+    display: flex;
+    align-items: center;
+    margin: 0 0 20px 20px;
+}
+
+.collection-image {
+    width: 26px;
+    border-radius: 20px;
+    margin-right: 8px;
+}
+
+.collection-name {
+    font-family: "Space Mono", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 140%;
+}
+
+/* .card_main {} */
+
+.image-div img {
+    display: block;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    min-height: 100px;
+}
+
+.body {
+    height: 100%;
+    /* background-color: #2B2B2B; */
+    padding: 20px 30px 25px 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px 30px;
+}
+
+.body > div:nth-child(odd) {
+    width: 50%;
+}
+
+/* .price {} */
+/* .id {} */
+/* .rarity {} */
+/* .contract {} */
+/* .price_usd {} */
+/* .royalties_bps {} */
+/* .last_appraisal_value{} */
+
+.field__title {
+    font-family: "Space Mono", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 110%;
+    color: #858584;
+    margin-bottom: 8px;
+}
+
+.field__value {
+    font-family: "Space Mono", sans-serif;
+    font-weight: 400;
+    line-height: 140%;
+}
+
+@media (min-width: 1024px) and (max-width: 1536px) {
+    .card {
+        width: auto;
+    }
+    .card_main {
+        display: flex;
+        padding: 0 20px 20px 20px;
+    }
+    .image-div img {
+        width: auto;
+        min-height: 300px;
+        max-width: 500px;
+        max-height: 550px;
+    }
+    .body {
+        width: 350px;
+        max-width: 500px;
+        padding: 15px 0 15px 35px;
+        gap: 35px 30px;
+    }
+}
+
+@media (max-width: 426px) {
+    .card {
+        width: 100%;
+    }
+    .image-div img {
+        width: 90vw;
+    }
+}
