@@ -11,6 +11,8 @@ node_modules
 dist
 dist-ssr
 .firebase
+.firebaserc
+firebase.json
 *.local
 
 # Editor directories and files
